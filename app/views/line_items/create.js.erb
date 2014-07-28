@@ -1,0 +1,11 @@
+$('#notice').hide()
+
+/*So, if there is a presence of a tag with and ID of "notice" - the above lien of code < ( $('#notice').hide(); > will hide the notice. But there in no notice at all (which is the case when I come to the store for the first time), then effectively this line of code will be ignored.*/
+
+if($('#cart tr').length == 1) { $('#cart').show('blind', 1000); }
+
+$('#cart').html("<%= escape_javascript render(@cart) %>");
+
+$('#current_item').css({'background-color':'#88ff88'}).animate({'background-#color':'#114411'}, 1000);
+
+/*$('#current_item').css({'background-color':'#88ff88'}).animate({'background-color':'#114411'}, 1000);*/

@@ -1,0 +1,27 @@
+# Read about fixtures at
+# http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+#Rohan Note - Need to add the .png/.jpg for th image_url file name for these products to be accepted in the test. Without these the test will throw "undefined method" error for variable "id".
+
+one:
+  title: MyString
+  description: MyText
+  image_url: MyString.png
+  price: 9.99
+
+two:
+  title: MyString
+  description: MyText
+  image_url: MyString.png
+  price: 9.99
+#START:ruby
+
+ruby: 
+  title:       Programming Ruby 1.9
+  description: 
+    Ruby is the fastest growing and most exciting dynamic
+    language out there.  If you need to get working programs
+    delivered fast, you should add Ruby to your toolbox.
+  price:       49.50
+  image_url:   ruby.png 
+#END:ruby
