@@ -82,4 +82,7 @@ Depot::Application.configure do
   config.serve_static_assets = true
   config.action_dispatch.x_sendfile_header = nil
 
+  # The below configuration is as per "https://github.com/plataformatec/devise"
+  config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
+
 end
